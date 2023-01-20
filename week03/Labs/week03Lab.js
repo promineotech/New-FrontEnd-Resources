@@ -1,13 +1,85 @@
 //
 // Copyright (c) 2023 Promineo Tech
 // Author:  Promineo Tech Academic Team
-// Subject:  Functions Lab
-// JavaScript Lab 3 - Functions (Questions)
+// Subject:  Arrays & Functions Lab
+// JavaScript Lab 3 - Arrays & Functions Lab Questions
 //
 
 
-// Question 1:  isEven
-console.log(' \n Question 1: isEven \n ');
+// Question 1: alphabetString
+console.log(' \n Question 1: alphabetString \n ');
+let alphabetString = 'abcdefghijklmnopqrstuvwxyz'; 
+//Convert the alphabetString to an array and print it to the console (see split method)
+
+// YOUR CODE BELOW THIS LINE
+
+
+
+
+
+
+// Question 2: alphabetArray
+console.log(' \n Question 2: alphabetArray \n ');
+let alphabetArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+// Reorganize the alphabet array from z to a (see built-in array "reverse" method)
+// Convert it to a string and print it to the console (see join method)
+
+// YOUR CODE BELOW THIS LINE
+
+
+
+
+
+
+
+// Question 3: array1
+console.log(' \n Question 3: array1 \n ');
+let array1 = [1, 5, 6, 9, 10, 14];
+//Using array1 above, solve the following questions
+    // a. Print the 3rd element in array1  
+    // b. Print the last element in array1
+    // c. Add 16 and 3 to array1 (see built-in array "push" method)
+    //          and Print the updated array.
+    // d. Print the 3rd element again.
+    // e. Print the last element again. Did it change from earlier? Are you able to get the last element that was just added?
+
+// YOUR CODE BELOW THIS LINE
+
+
+
+
+
+
+
+
+
+
+// Question 4: Todo List
+console.log(' \n Question 4: Todo List \n ');
+// In this task, you will do multiple tasks. Print results to the console after every change to the array(s).
+    // a. Create a variable called myTodoList that holds an empty array
+    // b. Add three todo items (elements) to the array using a built-in array method
+    // c. Remove the second item (element) in the array
+    // d. Create another array, yourTodoList, and add two todo items
+    // e. Create another array, ourTodoList
+    // f. Combine myTodoList and yourTodoList into ourTodoList (see built-in array "concat" method or "spread" operator for an idea how to accomplish this task). Either method is fine.
+
+// YOUR CODE BELOW THIS LINE
+
+
+
+
+
+
+/*
+ * Video 2:  FUNCTIONS
+ */
+
+
+
+
+// Question 5:  isEven
+console.log(' \n Question 5: isEven \n ');
 // Create a function called "isEven" 
     // This function takes in one parameter (x). x will be a number
     // This function will return true if x is even and false if x is odd
@@ -35,8 +107,8 @@ console.log(' \n Question 1: isEven \n ');
 
 
 
-// Question 2: addingMachine
-console.log(' \n Question 2: addingMachine \n ');
+// Question 6: addingMachine
+console.log(' \n Question 6: addingMachine \n ');
 // Create a function called addingMachine
     // This function will take in one parameter (array)
     // This function will add up all the numbers from the array 
@@ -65,8 +137,8 @@ console.log(' \n Question 2: addingMachine \n ');
 
 
 
-// Question 3: reverse
-console.log(' \n Question 3: reverse \n ');
+// Question 7: reverse
+console.log(' \n Question 7: reverse \n ');
 // Create a function called "reverse" 
     // Function takes in one parameter (x)
     // This function will return the opposite of whatever is passed in
@@ -106,8 +178,8 @@ console.log(' \n Question 3: reverse \n ');
 
 
 
-// Question 4: removeElements
-console.log(' \n Question 4: removeElements \n ');
+// Question 8: removeElements
+console.log(' \n Question 8: removeElements \n ');
 // Create a function called removeElements - the purpose of this 
 //		function is to remove all elements from an array
     // This function will have one parameter (array)
@@ -130,8 +202,8 @@ console.log(' \n Question 4: removeElements \n ');
 
 
 
-// Question 5: whichArrayIsLonger
-console.log(' \n Question 5: whichArrayIsLonger \n ');
+// Question 9: whichArrayIsLonger
+console.log(' \n Question 9: whichArrayIsLonger \n ');
 // Create a function called whichArrayIsLonger. The purpose of this function is to determine which array has the most elements
     // This function takes in two parameters (array1, array2)
     // You can use conditional statements to determine which array has the most elements
@@ -158,5 +230,7 @@ console.log(' \n Question 5: whichArrayIsLonger \n ');
 // console.log(whichArrayIsLonger([1, 2, 3, 4, 5], [1, 2, 3, 4])); //should return [1, 2, 3, 4, 5]
 // console.log(whichArrayIsLonger([1, 2, 3, 4], [1, 2, 3, 4, 5, 6])); //should return [1, 2, 3, 4, 5, 6]
 // console.log(whichArrayIsLonger([1, 2, 3, 4], [1, 2, 3, 4])); //should return false (because they are the same length)
+
+
 
 
