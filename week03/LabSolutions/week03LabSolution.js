@@ -82,7 +82,7 @@ console.log('Q4 c: Removed second item from myTodoList: ', myTodoList);
 let yourTodoList = ['item4', 'item5']; // Create another array, yourTodoList, and add two todo items
 console.log('Q4 d: yourTodoList: ', yourTodoList);
 
-console.log("Two Solutions to Question 4 e&f:");
+console.log("\n\nTwo Solutions to Question 4 e&f:");
 
 //Solution with spread operator
 let ourTodoList1 = [...myTodoList, ...yourTodoList]; // Create another array, ourTodoList and combine myTodoList and yourTodoList into ourTodoList
@@ -121,10 +121,10 @@ function isEven(x) {
 }
 
 // Sample test cases for the above isEven function (uncomment to test)
-// console.log(isEven(2)); //should return true
-// console.log(isEven(3)); //should return false
-// console.log(isEven(4)); //should return true
-// console.log(isEven(5)); //should return false
+console.log(isEven(2)); //should return true
+console.log(isEven(3)); //should return false
+console.log(isEven(4)); //should return true
+console.log(isEven(5)); //should return false
 
 
 
@@ -153,9 +153,9 @@ function addingMachine(array) {
 }
 
 // Sample test cases for the above addingMachine function (uncomment to test)
-// console.log(addingMachine([1, 2, 3, 4, 5])); //should return 15
-// console.log(addingMachine([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])); //should return 55
-// console.log(addingMachine([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])); //should return 120
+console.log(addingMachine([1, 2, 3, 4, 5])); //should return 15
+console.log(addingMachine([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])); //should return 55
+console.log(addingMachine([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])); //should return 120
 
 
 
@@ -193,10 +193,10 @@ function reverse(x) { // x is our parameter (i.e. the input or test case)
 }
 
 // Sample test cases for the above reverse function (uncomment to test)
-// console.log(reverse(1234)); //should return 4321
-// console.log(reverse('hello')); //should return 'olleh'
-// console.log(reverse(true)); //should return false
-// console.log(reverse([1, 2, 3, 4])); //should return [4, 3, 2, 1]
+console.log(reverse(1234)); //should return 4321
+console.log(reverse('hello')); //should return 'olleh'
+console.log(reverse(true)); //should return false
+console.log(reverse([1, 2, 3, 4])); //should return [4, 3, 2, 1]
 
 
 
@@ -220,7 +220,7 @@ function removeElements(array) {
 }
 
 // Sample test cases for the above removeElements function (uncomment to test)
-// console.log(removeElements([1, 2, 3, 4, 5])); //should return [] (an empty array)
+console.log(removeElements([1, 2, 3, 4, 5])); //should return [] (an empty array)
 
 
 
@@ -250,7 +250,7 @@ function whichArrayIsLonger(array1, array2) {
 }
 
 // Sample test cases for the above whichArrayIsLonger function (uncomment to test)
-// console.log(whichArrayIsLonger([1, 2, 3, 4, 5], [1, 2, 3, 4])); //should return [1, 2, 3, 4, 5]
-// console.log(whichArrayIsLonger([1, 2, 3, 4], [1, 2, 3, 4, 5, 6])); //should return [1, 2, 3, 4, 5, 6]
-// console.log(whichArrayIsLonger([1, 2, 3, 4], [1, 2, 3, 4])); //should return false (because they are the same length)
+console.log(whichArrayIsLonger([1, 2, 3, 4, 5], [1, 2, 3, 4])); //should return [1, 2, 3, 4, 5]
+console.log(whichArrayIsLonger([1, 2, 3, 4], [1, 2, 3, 4, 5, 6])); //should return [1, 2, 3, 4, 5, 6]
+console.log(whichArrayIsLonger([1, 2, 3, 4], [1, 2, 3, 4])); //should return false (because they are the same length)
 
