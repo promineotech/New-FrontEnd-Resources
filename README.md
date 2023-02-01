@@ -115,8 +115,9 @@
 	
 ## Event Handling:
 	• element.addEventListener("eventType", function() { statement; });
-	• Example: button.addEventListener("click", function() { alert("Button clicked!"); });
-
+```JavaScript	
+	button.addEventListener("click", function() { alert("Button clicked!"); });
+```
 
 
 
@@ -137,8 +138,23 @@
 
 
 ## String Methods
-	• length: str.length
-	• concatenate: str1 + str2
-	• indexOf: str.indexOf("substring")
-	• slice: str.slice(start, end)
-	• replace: str.replace("old", "new")
+	• length: 
+```JavaScript	
+	str.length
+```
+	• concatenate: 
+```JavaScript	
+	str1 + str2
+```	
+	• indexOf: 
+```JavaScript	
+	str.indexOf("substring")
+```
+	• slice: 
+```JavaScript	
+	str.slice(start, end)
+```	
+	• replace: 
+```JavaScript	
+	str.replace("old", "new")
+```
