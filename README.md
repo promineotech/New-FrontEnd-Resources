@@ -7,9 +7,9 @@
 ## Variable Declaration:
 
 ```JavaScript
-var x = "value";
-let y = "value";
-const z = "value"; (constant, can not be changed)
+	var x = "value";
+	let y = "value";
+	const z = "value"; (constant, can not be changed)
 ```
 
 ## Data Types:
@@ -56,11 +56,11 @@ const z = "value"; (constant, can not be changed)
 ### switch:
 ```JavaScript
 	switch (expression) { 
-		case x: statement1; 
+		case x: statement1(s); 
 		   	 	break; 
-		case y: statement2; 
+		case y: statement2(s); 
 				break; 
-		default: statement3; 
+		default: statement3(3); 
 	}
 ```
 
@@ -81,7 +81,7 @@ const z = "value"; (constant, can not be changed)
 ### do•while loop:
 ```JavaScript
 	do {
-	statements(s);	
+		statements(s);	
 	} while (condition);
 ```
 
