@@ -25,17 +25,28 @@ Promineo Tech Academic Team
 
 
 ## Arrays:
-	• Create: var arr = [element1, element2, element3];
-	• Access: arr[index];
-	• Update: arr[index] = newElement;
+	• Create: 
+```JavaScript	
+	var arr = [element1, element2, element3];
+```	
+	• Access: 
+```JavaScript	
+	arr[index];
+```	
+	• Update: 
+```JavaScript	
+	arr[index] = newElement;
+```
 	• Methods: 
+	
+```JavaScript	
 		• arr.push(element)
 		• arr.pop()
 		• arr.shift()
 		• arr.unshift(element)
 		• arr.slice(start, end)
 		• arr.splice(index, deleteCount, element)
-
+```
 
 ## Operators:
 	• Arithmetic: +, •, *, /, % (modulo)
@@ -116,7 +127,7 @@ Promineo Tech Academic Team
 ```
 	
 ## Event Handling:
-	• element.addEventListener("eventType", function() { statement; });
+	• element.addEventListener("eventType", function() { statement(s); });
 ```JavaScript	
 	button.addEventListener("click", function() { alert("Button clicked!"); });
 ```
