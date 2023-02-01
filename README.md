@@ -19,7 +19,7 @@
 	• Undefined (e.g. undefined)
 	• Null (e.g. null)
 	• Object (e.g. {})
-	•Array (e.g. [1,2,3,4,5])
+	• Array (e.g. [1,2,3,4,5])
 
 
 ## Arrays:
@@ -87,31 +87,31 @@
 
 ## Functions:
 	• Define: 
-	```JavaScript
+```JavaScript
 	function name(param1, param2) { statement(s); }
-	```
+```
 	• Call: 
-	```JavaScript
+```JavaScript
 	name(arg1, arg2);
-	```
+```
 	• Arrow function: 
-	```JavaScript
+```JavaScript
 	(param1, param2) => { statement(s); }
-	```
+```
 
 ## Objects
 	• Create: 
-	```JavaScript
+```JavaScript
 	var obj = { key1: value1, key2: value2 };
-	```
+```
 	• Access: 
-	```JavaScript
+```JavaScript
 	obj.key1 or obj["key1"]
-	```
+```
 	• Update: 
-	```JavaScript
+```JavaScript
 	obj.key1 = newValue;
-	```
+```
 	
 ## Event Handling:
 	• element.addEventListener("eventType", function() { statement; });
@@ -122,17 +122,17 @@
 
 ## DOM Manipulation
 	• Get element: 
-	```JavaScript
+```JavaScript
 	document.getElementById("id"), document.querySelector("css selector")
-	```
+```
 	• Change content: 
-	```JavaScript
+```JavaScript
 	element.innerHTML = "new content";
-	```
+```
 	• Change style: 
-	```JavaScript
+```JavaScript
 	element.style.property = "new value";
-	```
+```
 
 
 
