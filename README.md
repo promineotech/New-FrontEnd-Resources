@@ -13,33 +13,33 @@
 ```
 
 ## Data Types:
-	• 	Number (e.g. 42)
-	• 	String (e.g. "Goodbye World")
-	• 	Boolean ( e.g. true/false)
-	• 	Undefined (e.g. undefined)
-	• 	Null (e.g. null)
-	• 	Object (e.g. {})
-	• 	Array (e.g. [1,2,3,4,5])
+	• Number (e.g. 42)
+	• String (e.g. "Goodbye World")
+	• Boolean ( e.g. true/false)
+	• Undefined (e.g. undefined)
+	• Null (e.g. null)
+	• Object (e.g. {})
+	•Array (e.g. [1,2,3,4,5])
 
 
 ## Arrays:
-	•	Create: var arr = [element1, element2, element3];
-	•	Access: arr[index];
-	•	Update: arr[index] = newElement;
-	•	Methods: 
-		•	arr.push(element)
-		•	arr.pop()
-		•	arr.shift()
-		•	arr.unshift(element)
-		•	arr.slice(start, end)
-		•	arr.splice(index, deleteCount, element)
+	• Create: var arr = [element1, element2, element3];
+	• Access: arr[index];
+	• Update: arr[index] = newElement;
+	• Methods: 
+		• arr.push(element)
+		• arr.pop()
+		• arr.shift()
+		• arr.unshift(element)
+		• arr.slice(start, end)
+		• arr.splice(index, deleteCount, element)
 
 
 ## Operators:
-	•	Arithmetic: +, •, *, /, % (modulo)
-	•	Assignment: =, +=, •=, *=, /=, %=
-	•	Comparison: ==, ===, !=, !==, >, <, >=, <=
-	•	Logical: &&, ||, !
+	• Arithmetic: +, •, *, /, % (modulo)
+	• Assignment: =, +=, •=, *=, /=, %=
+	• Comparison: ==, ===, !=, !==, >, <, >=, <=
+	• Logical: &&, ||, !
 
 
 ## Control Flow: 
@@ -86,32 +86,59 @@
 ```
 
 ## Functions:
-	•	Define: function name(param1, param2) { statement; }
-	•	Call: name(arg1, arg2);
-	•	Arrow function: (param1, param2) => { statement; }
+	• Define: 
+	```JavaScript
+	function name(param1, param2) { statement(s); }
+	```
+	• Call: 
+	```JavaScript
+	name(arg1, arg2);
+	```
+	• Arrow function: 
+	```JavaScript
+	(param1, param2) => { statement(s); }
+	```
 
 ## Objects
-	•	Create: var obj = { key1: value1, key2: value2 };
-	•	Access: obj.key1 or obj["key1"]
-	•	Update: obj.key1 = newValue;
+	• Create: 
+	```JavaScript
+	var obj = { key1: value1, key2: value2 };
+	```
+	• Access: 
+	```JavaScript
+	obj.key1 or obj["key1"]
+	```
+	• Update: 
+	```JavaScript
+	obj.key1 = newValue;
+	```
 	
 ## Event Handling:
-	•	element.addEventListener("eventType", function() { statement; });
-	•	Example: button.addEventListener("click", function() { alert("Button clicked!"); });
+	• element.addEventListener("eventType", function() { statement; });
+	• Example: button.addEventListener("click", function() { alert("Button clicked!"); });
 
 
 
 
 ## DOM Manipulation
-	•	Get element: document.getElementById("id"), document.querySelector("css selector")
-	•	Change content: element.innerHTML = "new content";
-	•	Change style: element.style.property = "new value";
+	• Get element: 
+	```JavaScript
+	document.getElementById("id"), document.querySelector("css selector")
+	```
+	• Change content: 
+	```JavaScript
+	element.innerHTML = "new content";
+	```
+	• Change style: 
+	```JavaScript
+	element.style.property = "new value";
+	```
 
 
 
 ## String Methods
-	•	length: str.length
-	•	concatenate: str1 + str2
-	•	indexOf: str.indexOf("substring")
-	•	slice: str.slice(start, end)
-	•	replace: str.replace("old", "new")
+	• length: str.length
+	• concatenate: str1 + str2
+	• indexOf: str.indexOf("substring")
+	• slice: str.slice(start, end)
+	• replace: str.replace("old", "new")
