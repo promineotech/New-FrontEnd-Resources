@@ -60,18 +60,18 @@ Promineo Tech Academic Team
 ### if•else: 
 ```JavaScript
 	if (condition) { 
-		statement1(s); 
+		statement1s; 
 	} else {
-		statement2(s);
+		statement2s;
 	}
 ```
 
 ### switch:
 ```JavaScript
 	switch (expression) { 
-		case x: statement1(s); 
+		case x: statement1s; 
 		   	 	break; 
-		case y: statement2(s); 
+		case y: statement2s; 
 				break; 
 		default: statement3(3); 
 	}
@@ -80,28 +80,28 @@ Promineo Tech Academic Team
 ### for loop:
 ```JavaScript
 	for (var i = 0; i < 10; i++) { 
-		statement(s); 
+		statements; 
 	}
 ```
 
 ### while loop:
 ```JavaScript
 	while (condition) {
-		statement(s);
+		statements;
 	}
 ```
 
 ### do•while loop:
 ```JavaScript
 	do {
-		statements(s);	
+		statementss;	
 	} while (condition);
 ```
 
 ## Functions:
 	• Define: 
 ```JavaScript
-	function name(param1, param2) { statement(s); }
+	function name(param1, param2) { statements; }
 ```
 	• Call: 
 ```JavaScript
@@ -109,7 +109,7 @@ Promineo Tech Academic Team
 ```
 	• Arrow function: 
 ```JavaScript
-	(param1, param2) => { statement(s); }
+	(param1, param2) => { statements; }
 ```
 
 ## Objects
@@ -127,7 +127,7 @@ Promineo Tech Academic Team
 ```
 	
 ## Event Handling:
-	• element.addEventListener("eventType", function() { statement(s); });
+	• element.addEventListener("eventType", function() { statements; });
 ```JavaScript	
 	button.addEventListener("click", function() { alert("Button clicked!"); });
 ```
