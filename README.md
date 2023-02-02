@@ -60,20 +60,20 @@ Promineo Tech Academic Team
 ### if•else: 
 ```JavaScript
 	if (condition) { 
-		statement1s; 
+		statements; 
 	} else {
-		statement2s;
+		statements;
 	}
 ```
 
 ### switch:
 ```JavaScript
 	switch (expression) { 
-		case x: statement1s; 
+		case x: statements; 
 		   	 	break; 
-		case y: statement2s; 
+		case y: statements; 
 				break; 
-		default: statement3(3); 
+		default: statements; 
 	}
 ```
 
@@ -94,7 +94,7 @@ Promineo Tech Academic Team
 ### do•while loop:
 ```JavaScript
 	do {
-		statementss;	
+		statements;	
 	} while (condition);
 ```
 
