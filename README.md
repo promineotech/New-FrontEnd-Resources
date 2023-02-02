@@ -70,9 +70,9 @@ Promineo Tech Academic Team
 ```JavaScript
 	switch (expression) { 
 		case x: statements; 
-		break; 
+		        break; 
 		case y: statements; 
-		break; 
+		        break; 
 		default: statements; 
 	}
 ```
