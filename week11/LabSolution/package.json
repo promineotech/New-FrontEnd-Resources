@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "jquery": "^3.6.3",
+    "json-server": "^0.17.1"
+  }
+}

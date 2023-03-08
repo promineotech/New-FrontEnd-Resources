@@ -1,0 +1,195 @@
+/* Copyright (c) 2023 Promineo Tech
+   Author:  Promineo Tech Academic Team
+   Subject:  CSS Lab
+   Front End Technologies Lab 8 - CSS (Questions)
+*/
+/*----------------------------------------------------
+Key Terms:
+* selector
+* class
+* id 
+* element 
+* flex 
+
+Objectives:
+* Use CSS selectors to target specific HTML elements and apply styles to them.
+* Use CSS properties to change the layout, typography, and visual design of the webpage.
+* Use the CSS box model to control the size and spacing of HTML elements.
+* Use CSS to create a responsive layout that adapts to different screen sizes and devices.
+* Use browser developer tools to inspect and debug their CSS.
+-----------------------------------------------------
+
+Instructions: The HTML file is complete and images have been provided. The CSS file is missing many properties but all necessary ELEMENTS, ID, and CLASS SELECTORS are already provided. Use the HTML file to find the element's ID or CLASS to be used as a selector in the CSS file to add the properties in the correct place. The CSS file is already linked to the HTML file.
+
+-----------------------------------------------------
+
+PART 1: Using the ELEMENT Selector:
+* Step 1: Target the html BODY element and give it a top and bottom margin of 1rem and a left and right margin of 5rem.
+* Step 2: Target the page title and give it a filter of drop-shadow with x offset of 2 pixels, y offset of 2 pixels, blur of 1 pixel and hex color code of #0f6a9e.(See documentation https://developer.mozilla.org/en-US/docs/Web/CSS/filter)
+* Step 3: Target all of the paragraphs and lists on the page to give it a font size of 20 pixels. 
+* Step 4: Target all of the image elements, assign the following:
+        * margin (top, right, bottom, and left) of 1 rem
+        * border radius of 1rem (See documentation https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius)
+        * box shadow with an x offset of 2 pixels, y offset of 2 pixels, blur of 2 pixels, spread radius of 1 pixel, a, rgb color of black with a transparency of 0.5. (See documentation https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+* Step 5: The top image has a caption, give it a font color of rgb(0, 58, 66).
+* Step 6: Align the paragraph in the footer to the center.(See documentation https://developer.mozilla.org/en-US/docs/Web/CSS/text-align)
+
+-----------------------------------------------------
+
+PART 2: Using ID or CLASS Selectors: 
+* Step 1: Notice that there are 2 images at the top, one shorter than the other. In the HTML file, find the ID for the shorter image and give it a property of {display: none;} in the CSS file.
+* Step 2: Now that the shorter image is hidden, when the screen is 500 pixels or less, the shorter image needs to display once again and the longer image needs to be hidden. Go to the last MEDIA QUERY in the CSS file and add the necessary properties to make this happen. If using Chrome, use the Chrome Dev tools to check the web page's responsiveness.
+* Step 3: The caption for the top banner image is not under the image like it should be. Add a property to make the caption wrap under the image using flex.
+* Step 4: In the DIV that has the 4 images, justify the content by putting space around each image.
+* Step 5: Give the DIV that houses the "Top 5 Places to Visit..." a background color of rgb(0, 58, 66) and a border radius of 1 rem.
+* Step 6: The DIV that houses the "Tips and Recommendations" appears to be squished when the screen size is less than 1100 pixels. Add to the appropriate MEDIA QUERY a property that will allow the div to wrap down and then justify the contents to the center. Start by taking a look at the CSS for that DIV outside of the MEDIA QUERY to understand how the DIV is behaving.
+
+-----------------------------------------------------
+
+*/
+
+ /* ↓ YOUR CSS CODE HERE ↓  */
+
+
+/* 
+The asterisk (*) selector targets every element on the page. It is called the UNIVERSAL SELECTOR. Using a temporary red border around elements can prove to be helpful with visualizing the CSS box-model. Seeing all of the margins, borders, and padding of all 
+of the elements on the page can help fix issues with spacing too, especially if you're new to CSS. 
+*/
+
+/* ---UNIVERSAL SELECTOR--- */
+/* OPTIONAL ↓ REMOVE COMMENTS TO SEE RED BORDER:*/ 
+
+
+
+/* *{
+  border: 1px solid red;
+} */
+
+
+
+
+
+/* ---ELEMENT SELECTORS--- */
+
+html{
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  background: linear-gradient(180deg, 
+  #84daf5,
+  #89ffff,
+  #affffa,
+  #ffffff
+  );
+}
+body{
+  margin: 1rem 5rem;
+}
+
+h1{
+  text-align: center;
+  filter: drop-shadow(2px 2px 1px #0f6a9e);
+}
+h2{
+  margin: 4rem auto 1rem auto;
+  text-align: center;
+}
+p, li{
+  font-size: 20px;
+}
+ol{
+  padding: 20px;
+}
+
+ol li{
+  padding: 10px 0;
+}
+img{
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  margin: 1rem;
+}
+figcaption{
+  text-align: center;
+  color:rgb(0, 58, 66);
+  font-weight: bold;
+}
+footer{
+  text-align: center;
+  margin: 2rem 0 2rem 0;
+}
+
+/* ---CUSTOM CLASS NAME SELECTORS--- */
+
+.banner-div{
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
+}
+#banner-long{
+  max-width:100%;
+  height:auto;
+}
+#banner-short{
+  width:230px;
+  display:none;
+}
+.img-div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tips-div{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content:start; 
+}
+.top-places-div{
+  max-width: 800px;
+  margin: 5rem auto;
+  background-color: rgb(0, 58, 66);
+  color: rgb(253, 197, 132);
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+}
+.top-places-div h2{
+  text-align:center;
+  margin: 1rem auto;
+  font-weight: lighter;
+}
+
+/* ----- MEDIA QUERIES for RESPONSIVE DESIGN ----- */
+
+@media only screen and (max-width: 1500px){
+  .img-div img{
+    width: 420px;
+  }
+}
+
+@media only screen and (max-width: 1100px){
+  .tips-div{
+    flex-wrap: wrap;
+    justify-content:center; 
+  }
+}
+
+@media only screen and (max-width: 500px){
+  body{
+    margin: 1rem;
+  }
+  p, li{
+    font-size: 16px;
+  }
+  .img-div img{
+    width: 230px;
+  }
+  .tips-div img{
+    width: 230px;
+  }
+  #banner-long{
+    display: none;
+  }
+  #banner-short{
+    display:block;
+  }
+}
+/* ------------------------- */
