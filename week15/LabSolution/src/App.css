@@ -1,0 +1,9 @@
+.mapContainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2em;
+}
+
+.mapContainer form {
+  margin-left: 10%;
+}
