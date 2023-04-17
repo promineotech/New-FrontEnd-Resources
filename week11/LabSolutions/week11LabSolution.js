@@ -163,7 +163,7 @@ $(".test").on("click", function(){
 	let lname = $('#lastname').val();
 	let grade = $('#grade').val();
 	
-	$.postBtn("http://localhost:3000/gradebook", 
+	$.post("http://localhost:3000/gradebook", 
 			{ 
 					"firstname": fname,
 					"lastname": lname,
@@ -180,7 +180,7 @@ $(".test").on("click", function(){
 	*
 	* ↓ YOUR CODE HERE ↓ */
 
-$(".post").on("click", function(){
+$(".postBtn").on("click", function(){
 	
 	let fname = $('#firstname').val();
 	let lname = $('#lastname').val();
